@@ -81,7 +81,7 @@ p.remind{
 	background-color: #2ecc71;
 	float:left;
 	margin:10pt;
-	transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out; /*To smooth the transition*/
 }
 .Q1 h1{
 	font-family: 'Merriweather', serif;
@@ -89,6 +89,7 @@ p.remind{
 	vertical-align: middle;
 	}
 .Q1:hover{
+	/*giving some expansion transition*/
 	 -webkit-transform: scale(1.3);
         -ms-transform: scale(1.3);
         transform: scale(1.3);
