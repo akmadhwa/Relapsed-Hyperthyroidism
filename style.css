@@ -126,10 +126,19 @@ p.remind{
 .button p:hover{
 	color:#34495e;
 }
-
+.imageholder{
+	position: relative; /*need to be Relative to make text on image responsive*/
+	width: 1300px;
+	height:700px;
+}
 .imageholder img{
 	border-radius: 10px;
 	margin: 1em;
 	width: 1300px;
-	height:800px;
+	height:700px;
+}
+.imgtxt{
+	position: absolute;
+	top:50px;
+	left: 100px;
 }
