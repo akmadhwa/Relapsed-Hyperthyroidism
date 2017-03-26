@@ -3,6 +3,11 @@ body{
 	/*background-color: #118C4E;*/
 }
 
+*{
+	/*needed to remove margin at top of the navbar*/
+	margin: 0;
+}
+
 h2.title{
 	font-family: 'Open Sans', sans-serif;
 	text-transform:uppercase;
@@ -127,7 +132,8 @@ p.remind{
 	color:#34495e;
 }
 .imageholder{
-	position: relative; /*need to be Relative to make text on image responsive*/
+	position: relative; 
+	/*need to be Relative to make text on image responsive*/
 	width: 1300px;
 	height:700px;
 }
@@ -139,6 +145,6 @@ p.remind{
 }
 .imgtxt{
 	position: absolute;
-	top:50px;
+	top:100px;
 	left: 100px;
 }
