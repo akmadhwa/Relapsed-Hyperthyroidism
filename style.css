@@ -3,10 +3,11 @@ body{
 	/*background-color: #118C4E;*/
 }
 
-/**{
-	needed to remove margin at top of the navbar
-	margin: 0;*/
-}
+html, body {
+ 	margin:0; 
+ 	padding:0;
+ 	/*needed to remove padding around navbar*/
+ } 
 
 h2.title{
 	font-family: 'Open Sans', sans-serif;
@@ -18,7 +19,7 @@ h2.title{
 	/*border-bottom: 5px solid blue;s*/
 }
 
-html, body { margin:0; padding:0 }
+
 
 ul.nav{
 	list-style-type: none;
@@ -26,6 +27,9 @@ ul.nav{
 	padding: 0;
 	overflow: hidden;
 	background-color:#ecf0f1;
+	-webkit-box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
+	-moz-box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
+	box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
 	/*border-radius: 15px;*/
 
 }
