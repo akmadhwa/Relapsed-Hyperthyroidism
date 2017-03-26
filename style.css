@@ -72,7 +72,10 @@ p.remind{
 	font-size: 14pt;
 }
 .container{
-	padding:3em;
+	padding:1em;
+	padding-left: 5em;
+	width: 85em;
+	height:33em;
 }
 
 .Q1{
@@ -149,4 +152,8 @@ p.remind{
 	left: 400px;
 	color: #545454;
 	font-size: 70pt;
+}
+
+footer{
+	display: block;
 }
