@@ -4,6 +4,7 @@ body{
 }
 
 html, body {
+	height: 100%;
  	margin:0; 
  	padding:0;
  	/*needed to remove padding around navbar*/
@@ -152,11 +153,18 @@ p.remind{
 	font-size: 70pt;
 }
 
-#footer{
+.wrapper {
+  min-height: 100%;
 
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	height: 60px;
+  /* Equal to height of footer */
+  /* But also accounting for potential margin-bottom of last child */
+  margin-bottom: -50px;
+}
+.footer,
+.push {
+  height: 50px;
+}
+
+.footer{
 	background-color: blue;
 }
