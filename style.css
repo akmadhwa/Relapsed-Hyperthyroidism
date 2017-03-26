@@ -3,9 +3,9 @@ body{
 	/*background-color: #118C4E;*/
 }
 
-*{
-	/*needed to remove margin at top of the navbar*/
-	margin: 0;
+/**{
+	needed to remove margin at top of the navbar
+	margin: 0;*/
 }
 
 h2.title{
