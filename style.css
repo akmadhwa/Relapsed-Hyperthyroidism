@@ -16,15 +16,9 @@ h2.title{
 	color: #585858;
 	margin-bottom: 9pt;
 	/*border-bottom: 5px solid blue;s*/
-
-	
-
 }
 
-.menu{
-	padding: 0px;
-	margin:0px;
-}
+html, body { margin:0; padding:0 }
 
 ul.nav{
 	list-style-type: none;
