@@ -182,10 +182,18 @@ p.remind{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 300;
 	position: absolute;
-	top:100px;
+	top:40px;
 	left: 400px;
 	color: #545454;
 	font-size: 70pt;
+}
+.imgtxt2{
+	position: absolute;
+	top:180px;
+	left: 400px;
+	color: #545454;
+	width: 560px;
+	font-family: 'Lora', serif;
 }
 
 footer{
