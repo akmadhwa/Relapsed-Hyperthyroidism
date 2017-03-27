@@ -42,7 +42,7 @@ li {
 ;
 }
 li a{
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	text-decoration:none;
 	color: #2c3e50;
@@ -72,14 +72,19 @@ li a:hover{
 	color: white;
 	text-decoration: none;
 }
-.image{
+.navtxt{
 	float:left;
 	display: inline-block;
-	width: 150px;
-	height: 65;
-	margin-top:2px;
+	width: 250px;
+	height: 50px;
 	margin-left: 10px;
-
+	
+}
+p.navtxt{
+	font-family: 'Open Sans', Sans-serif;
+	font-size: 17pt;
+	font-weight:300;
+	margin-top: 5pt;
 }
 .line{
 	padding-top: 1pt;
@@ -93,7 +98,7 @@ p.remind{
 .container{
 	padding:1em;
 	padding-left: 4em;
-	width: 73sem;
+	width: 73em;
 	height:33em;
 }
 
