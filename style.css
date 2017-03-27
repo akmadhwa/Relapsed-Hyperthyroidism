@@ -122,7 +122,10 @@ p.remind{
 	margin-top : .5em;
 	font-family: sans-serif;
 	font-weight: bold;
-	color: #ecf0f1
+	color: #ecf0f1;
+	width: 4em;
+	height:2em
+
 }
 
 .button:hover{
