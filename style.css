@@ -29,7 +29,6 @@ ul.nav{
 	-webkit-box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
 	-moz-box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
 	box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
-	/*border-radius: 15px;*/
 
 }
 .menu{
@@ -40,6 +39,7 @@ li {
 	float: right;
 	margin-top: 5px;
 	font-size: 12pt;
+;
 }
 li a{
 	font-family: sans-serif;
@@ -48,10 +48,29 @@ li a{
 	color: #2c3e50;
 	display:inline-block;
 	text-align: center;
-	height: 50px;'
+	height: 50px;
 }
 li a:hover{
 	color: #2980b9;
+}
+.decision{
+	border: 2px solid #e74c3c;
+	border-radius: 7px;
+	color:#2980b9;
+	margin-top: 1px;
+	padding-top: 7px;
+	padding-left: 15px;
+	height: 40px;
+	width: 120px;
+	margin-right: 10px;
+	
+}
+.decision:hover{
+	background-color: #e74c3c;
+}
+.decision a:hover{
+	color: white;
+	text-decoration: none;
 }
 .image{
 	float:left;
