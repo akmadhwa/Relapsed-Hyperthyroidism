@@ -45,8 +45,17 @@ li a{
 li a:hover{
 	color: #2980b9;
 }
+li.active{
+	border-radius: 7px;
+	background-color: #e74c3c;
+	width: 120px;
+	margin-right: 10px;
+}
+a.active{
+	color: white;
+}
 .decision{
-	border: 2px solid #e74c3c;
+	
 	border-radius: 7px;
 	color:#2980b9;
 	margin-top: 1px;
