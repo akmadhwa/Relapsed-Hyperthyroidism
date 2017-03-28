@@ -55,7 +55,7 @@ a.active{
 	color: white;
 }
 .decision{
-	
+	border:2px solid #e74c3c;
 	border-radius: 7px;
 	color:#2980b9;
 	margin-top: 1px;
