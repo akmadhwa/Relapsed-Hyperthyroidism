@@ -114,8 +114,7 @@ p.remind{
 	height: 30em;
 	background-color: #2ecc71;
 	float:left;
-	margin-left :8pt;
-	margin-right: 8pt;
+	margin:8pt;
 	transition: all .2s ease-in-out; /*To smooth the transition*/
 }
 .Q1 h1{
