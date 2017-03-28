@@ -32,11 +32,10 @@ li {
 	float: right;
 	margin-top: 5px;
 	font-size: 12pt;
-
 }
 li a{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: bold;
+	font-weight: 600;
 	text-decoration:none;
 	color: #2c3e50;
 	display:inline-block;
