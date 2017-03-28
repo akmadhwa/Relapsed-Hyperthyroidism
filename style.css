@@ -195,7 +195,11 @@ p.remind{
 	width: 560px;
 	font-family: 'Lora', serif;
 }
-
+.bootbtn{
+	position: absolute;
+	top:250px;
+	left: 650px;
+}
 footer{
 	display: block;
 }
