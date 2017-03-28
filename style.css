@@ -1,6 +1,7 @@
 
 body{
 	/*background-color: #118C4E;*/
+	position: relative;
 }
 
 html, body {
@@ -200,6 +201,12 @@ p.remind{
 	top:250px;
 	left: 650px;
 }
-footer{
-	display: block;
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
