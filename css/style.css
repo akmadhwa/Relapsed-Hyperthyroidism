@@ -17,7 +17,7 @@ html, body {
  */
 
 .menu{
-	height: 50px;
+	height: 60px;
 }
 .navtxt{
 	float:left;
@@ -37,7 +37,7 @@ p.navtxt{
 
 ul.nav{
 	list-style-type: none;
-	height:50px;
+	height:60px;
 	margin:0;
 	padding: 0;
 	overflow: hidden;
@@ -92,12 +92,58 @@ a.active{
 
 
 /**
+For the nav bar during the scroll
+*/
+.scroll-container{
+	height: 60px;
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    /*to prevent conflict from the relative element*/
+	z-index: 2;
+}
+
+.scroll-inner-container{
+	background-color: #ecf0f1;
+	height: 60px;
+	text-align: center;
+
+	/*to prevent overflow of inline-block elemet*/
+	white-space: nowrap; 
+}
+
+#scrollBox{
+	display: inline-block;
+	/*to make the inline-block center*/
+	vertical-align: top;
+	height: 30px;
+	width: 185px;
+	margin: 10px 5px 0px 5px;
+	padding: 5px 10px 0px 10px;
+	border-radius: 5px;
+	font-weight: bold;
+	/*shadow behind the box*/
+	-webkit-box-shadow: -1px 3px 18px -3px rgba(0,0,0,0.4);
+	-moz-box-shadow: -1px 3px 18px -3px rgba(0,0,0,0.4);
+	box-shadow: -1px 3px 18px -3px rgba(0,0,0,0.4);
+
+}
+
+.scroll-box4{
+	background-color: #e74c3c;
+	color: #ecf0f1;
+}
+
+/**
 For the image header under the nav
 Part 1
 */
 
 .imageholder{
 	position: relative; 
+	z-index: 1;
 	/*need to be Relative to make text on image responsive*/
 	width: 100%;
 	height:600px;
