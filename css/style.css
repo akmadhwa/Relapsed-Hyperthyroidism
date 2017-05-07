@@ -206,7 +206,7 @@ h2.card-header-title{
 	font-family: 'Open Sans', sans-serif;
 	text-transform:uppercase;
 	letter-spacing: .001pt;
-	font-size: 40pt;
+	font-size: 30pt;
 	color: #585858;
 	margin-top: 50pt;
 	margin-bottom: 9pt;
@@ -235,6 +235,7 @@ h2.card-header-title{
 	font-family: 'Merriweather', serif;
 	color: #ecf0f1;
 	vertical-align: middle;
+	font-size: 30px;
 	}
 .card-style:hover{
 	/*giving some expansion transition*/
