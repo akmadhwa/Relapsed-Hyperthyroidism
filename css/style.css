@@ -117,7 +117,7 @@ For the nav bar during the scroll
 	height: 30px;
 	width: 185px;
 	margin: 10px 5px 0px 5px;
-	padding: 5px 10px 0px 10px;
+	padding-top: 2px;
 	border-radius: 5px;
 	font-weight: bold;
 	/*shadow behind the box*/
