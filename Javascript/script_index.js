@@ -1,5 +1,6 @@
 jQuery(document).ready(function(){
 
+	jQuery(".scroll-container").hide();
 
 	// when the user scrolling the page this function will triggered
 	jQuery(window).scroll(function(){
