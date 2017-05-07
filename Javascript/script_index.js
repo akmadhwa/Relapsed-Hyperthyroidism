@@ -1,7 +1,5 @@
 jQuery(document).ready(function(){
 
-	jQuery(".scroll-container").hide();
-
 	// when the user scrolling the page this function will triggered
 	jQuery(window).scroll(function(){
 
@@ -18,6 +16,15 @@ jQuery(document).ready(function(){
 		}
 
 	})
+
+	// make the cards (div) clickables
+
+	$(".card-style").click(function() {
+
+  		window.location = $(this).find("a").attr("href"); 
+
+ 		 return false;
+	});
 	
 
 })
