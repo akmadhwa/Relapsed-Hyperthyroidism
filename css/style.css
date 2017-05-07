@@ -48,12 +48,12 @@ ul.nav{
 
 }
 
-li {
+#nav-li {
 	float: right;
 	margin-top: 5px;
 	font-size: 12pt;
 }
-li a{
+.nav-li-a{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	text-decoration:none;
@@ -62,12 +62,8 @@ li a{
 	text-align: center;
 	height: 50px;
 }
-li a:hover{
+.nav-li-a:hover{
 	color: #2980b9;
-}
-
-a.active{
-	color: white;
 }
 
 .btn--decision{
@@ -284,11 +280,5 @@ FOOTER
 */
 
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
+  
 }
