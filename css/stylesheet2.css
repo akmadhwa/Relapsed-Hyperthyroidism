@@ -1,0 +1,162 @@
+@font-face {
+	font-family: 'hurtmoldregular';
+	src: url('./hurtmoldregular.eot');
+	src: local('hurtmoldregular'), url('./hurtmoldregular.woff') format('woff'), url('./hurtmoldregular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Century Gothic', sans-serif;
+	background-color: #B2B2B2;
+	background-size: 1500px 900px;
+	background-repeat: no-repeat;
+	background-image: url("mclaren.jpg");
+
+}
+.body.img{
+	
+}
+
+.topmenu{
+	font-family: 'hurtmoldregular';
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+}
+
+.topmenu li{
+	float: left;
+}
+
+.topmenu li a{
+	display: block;
+	color: white;
+	text-align: centre;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topmenu li a:hover:not(.active){
+	background-color: #222;
+}
+
+.topmenu li a.active{
+	color: white;
+	background-color: #ff8100;
+}
+.topmenu li.right{float:right;}
+
+@media screen and (max-width: 600px){
+	.topmenu li.right,
+	.topmenu li {float:none;}
+}
+
+.header{
+	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Century Gothic', sans-serif;
+	font-size: 25px;
+	border-radius: 25px;
+    background:  #ff8100;
+    padding: 5px; 
+    width: 240px;
+    height: 50px;
+	display: block;
+	color: white;
+	align-content: center;
+	text-align: center;
+	
+}
+
+.photo{
+	font-family: 'Century Gothic', sans-serif;
+	list-style-type: none;
+	margin: 0;
+	padding: 0px;
+	width: 300px;
+	height: 100px;
+	border: 1px black;
+	overflow: hidden;
+	
+}
+
+.photo li{
+	float: left;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+.desc{
+	padding: 10px;
+	text-align: center;
+}
+.no_underline_link{
+	color: black;
+	background-color: #B2B2B2;
+	
+	padding: 0px 0px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;*/
+}
+#test {
+	font-family: 'Century Gothic', sans-serif;
+	border-collapse: collapse;
+	width: 50%;
+}
+#test th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #311C1B;
+	color: white;
+}
+ #test th, #test td{
+	border: 1px solid black;
+	padding: 8px;
+	text-align: center;
+}
+#test tr:hover{
+	background-color: #ddd;
+}
+#color1 {
+	background-color: #f2f2f2;;
+	color: black;
+	border: 1px  white;
+	padding: 8px;
+	text-align: center;
+}
+#color1:hover{
+	background-color: #ddd;
+	color: black;
+}
+#color2 {
+	background-color: #f2f2f2;;
+	color: black;
+	border: 1px  white;
+	padding: 8px;
+	text-align: center;
+}
+#color2:hover{
+	background-color: #ddd;
+}
+
+
