@@ -24,7 +24,7 @@
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<link rel="shortcut icon" type="image/jpg" href="../images/thyroid.jpg ">
+		<link rel="shortcut icon" type="image/jpg" href="../Images/thyroid.jpg ">
 	</head>
 
 	<body>
@@ -162,19 +162,35 @@
 				</header>
 				<div class="w3-container w3-padding w3-white">
 					<form class= "w3-animate-opacity">
-					  	<input type="radio" name="treatment" value="1" > No, I am not ready<br>
-					  	<input type="radio" name="treatment" value="2"> Yes, I am ready<br><br>
-					</form> 
+					  	<input type="radio" id= "no" name="treatment" value="1" > No, I am not ready<br>
+					  	<input type="radio" id= "yes" name="treatment" value="2"> Yes, I am ready<br><br>
+					</form>
 				</div>
 				<footer class="w3-container w3-teal w3-padding">
       				<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">
 					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs(1)"><br>
     			</footer>
 			</div>
-			<!--QUESTION 4-->
+			<!--QUESTION 5-->
 			<div class="mySlides w3-animate-opacity ">
 				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 					If you are not ready, you can come back later and discuss with your doctor or nurse about your decision.<br>
+					OR you have any questions for your doctor, type them below.
+				</header>
+				<div class="w3-container w3-padding w3-white">
+					<form class= "w3-animate-opacity">
+					  	<input class="w3-input w3-border w3-animate-input" type="text" style="width:30%"><br><br>
+					</form> 
+				</div>
+				<footer class="w3-container w3-teal w3-padding">
+      				<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">
+					<!--<input type="Submit" class="w3-button w3-right w3-black" value="Done" onclick="plusDivs(1)"><br>-->
+					<a class="w3-button w3-right w3-sand w3-round-large" href="../index.html" style="text-decoration: none;">Done</a><br>
+    			</footer>
+			</div>
+			<!--QUESTION 4-->
+			<div class="mySlides w3-animate-opacity ">
+				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 					If you are ready to make a decision, which choice do you prefer?
 				</header>
 				<div class="w3-container w3-padding w3-white">
@@ -212,7 +228,16 @@
 			showDivs(slideIndex);
 
 			function plusDivs(n) {
-			  showDivs(slideIndex += n);
+				if(document.getElementById('no').checked == true){
+					showDivs(slideIndex += n);
+				}
+				else if(document.getElementById('yes').checked == true){
+					showDivs(slideIndex += 2);
+					slideIndex = slideIndex-1;
+				}
+				else{
+					showDivs(slideIndex += n);
+				}  
 			}
 
 			function showDivs(n) {
