@@ -176,10 +176,55 @@ Part 1
 }
 
 /**
-Bootstrap card cSS
 Part 2
-
+second card 
+About the Pda
 */
+.pda-description{
+	margin: 10px;
+	min-height: 400px;
+}
+.pda-line{
+	width: 100px;
+	border-bottom: 7px solid #2ecc71;
+	padding-top: 35px;
+}
+.pda-title{
+	
+}
+
+.pda-title h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 60px;
+	color : #3f3f3f;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.pda-details{
+	padding: 10px;
+}
+
+p.pda-sentence1 {
+	color: #3f3f3f;
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+span{
+	color: #e74c3c;
+	font-style: italic;
+}
+
+p.pda-sentence2{
+	padding-top: 20px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
 
 
 /**

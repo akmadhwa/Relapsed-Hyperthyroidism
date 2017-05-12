@@ -9,6 +9,10 @@ jQuery(document).ready(function(){
 
 			jQuery(".scroll-container").show(150);
 
+			// add animated to pda-title
+
+			$(".pda-title").addClass("wobble animated");
+
 		}else{
 
 			jQuery(".scroll-container").hide(150);
