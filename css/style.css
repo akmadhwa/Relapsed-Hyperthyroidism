@@ -214,7 +214,7 @@ p.pda-sentence1 {
 	font-size: 15px;
 }
 
-span{
+.highlight span{
 	color: #e74c3c;
 	font-style: italic;
 }
