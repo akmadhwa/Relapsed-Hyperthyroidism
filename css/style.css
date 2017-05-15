@@ -40,6 +40,8 @@ ul.nav{
 	height:60px;
 	margin:0;
 	padding: 0;
+    padding-top: 8px;
+    padding-left: 1em;
 	overflow: hidden;
 	background-color:#ecf0f1;
 	-webkit-box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
