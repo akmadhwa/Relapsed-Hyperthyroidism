@@ -36,48 +36,47 @@
 		</ul>-->
 
 		<div class="menu">
-			<ul class="nav">
-				<a href="../index.html"><p class="navtxt">Patient decision aids</p></a>
-				<!--If you want to add the navbar menu
-					Put below here 
-					Just copy this code
-					<li><div class=""><a href="l">Your name</div></a></li> 
-					-->
-				<li><div class="btn--decision"><a href="html/decisions.html">DECISIONS</div></a></li> 
-				<li><a href="">About us</a></li>
-				<li><a href="../index.html">Home</a></li>
-			</ul>
-		</div>
+        <ul class="nav">
+            <a href="../index.html">
+                <p class="navtxt">Patient decision aids</p>
+            </a>
+            <!-- If you want to add the navbar menu
+                Put below here 
+                Just copy this code
+                <li><div class=""><a href="">Your name</div></a></li>  -->
+                <li id="nav-li"><a href="" class="nav-li-a">NEXT</a></li>
+        </ul>
+    </div>
 
 		<center><h2 class="title w3-animate-zoom" value=" bounce" >HYPERTHYROID DECISION MAKER</h2></center>
 		<center><div class="line w3-animate-zoom"></div></center>
 		<center><p class="remind w3-animate-zoom">Choose it wisely</p></center>
 		<!--<h2 class="w3-center"> HYPERTHYROID DECISION MAKING</h2>
 			<h3 class="w3-center"> Work In Progress</h3>-->
-		<div class="w3-card-4 w3-display-middle w3-display-position" style="width:80%; top:425px; ">
-			<!-- QUESTION 1 -->	
+		<div class="w3-card-4 w3-display-middle w3-display-position" style="width:80%; top:375px; ">
+			<!-- QUESTION 1 slideIndex = 0-->	
 			<div class="mySlides w3-animate-opacity ">
 				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 					You may have some concerns about these treatment options. Please go through the list below and tick any of these if you are concerned about them.
 				</header>
 				<div class="w3-container w3-padding w3-white">
-					<form class= "w3-animate-opacity">
-					  	<input type="checkbox" name="treatment" value="1" > I am concerned that taking RAI may harm my family and/or children<br>
-					  	<input type="checkbox" name="treatment" value="2"> I am planning to get pregnant/ start a family and am concerned that RAI may affect this plan<br>
-					  	<input type="checkbox" name="treatment" value="3"> I am concerned that I have to take lifelong thyroid hormone replacement<br>
-					  	<input type="checkbox" name="treatment" value="4"> I am concerned that I will gain weight if I am hypothyroid<br>
-					  	<input type="checkbox" name="treatment" value="5"> My goitre is large and I wish to reduce the size of it<br>
-					  	<input type="checkbox" name="treatment" value="6"> I am afraid of surgery<br>
-					  	<input type="checkbox" name="treatment" value="7"> I am concerned that medication may damage my kidneys (or other organs)<br>
-					  	<input type="checkbox" name="treatment" value="8"> Nothing<br><br>
+					<form class= "w3-animate-opacity" required>
+					  	<input type="checkbox" id="qa1" name="treatment" value="1" > I am concerned that taking RAI may harm my family and/or children<br>
+					  	<input type="checkbox" id="qa2" name="treatment" value="2"> I am planning to get pregnant/ start a family and am concerned that RAI may affect this plan<br>
+					  	<input type="checkbox" id="qa3" name="treatment" value="3"> I am concerned that I have to take lifelong thyroid hormone replacement<br>
+					  	<input type="checkbox" id="qa4" name="treatment" value="4"> I am concerned that I will gain weight if I am hypothyroid<br>
+					  	<input type="checkbox" id="qa5" name="treatment" value="5"> My goitre is large and I wish to reduce the size of it<br>
+					  	<input type="checkbox" id="qa6" name="treatment" value="6"> I am afraid of surgery<br>
+					  	<input type="checkbox" id="qa7" name="treatment" value="7"> I am concerned that medication may damage my kidneys (or other organs)<br>
+					  	<input type="checkbox" id="qa8" name="treatment" value="8"> Nothing<br><br>
 					</form> 
 				</div>
 				<footer class="w3-container w3-teal w3-padding">
-      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">-->
-					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs(1)"><br>
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs1(1)"><br>
     			</footer>
 			</div>
-			<!-- QUESTION 2 -->		
+			<!-- QUESTION 2 slideIndex = 1-->		
 			<div class="mySlides w3-animate-opacity w3-white">
 				<header class=" w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 				It is important that you consider what other information and support you need before making a decision. Please consider the following support you might need and tick the appropriate boxes.
@@ -96,10 +95,10 @@
 		  						Do you know enough about the advantages and disadvantages of each option to make a choice?
 		  					</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="YES"> <br>
+							  	<input type="radio" id="qb1yes" name="treatment" value="YES"> <br>
 							</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="NO"> <br>
+							  	<input type="radio" id="qb1no" name="treatment" value="NO"> <br>
 							</div>
 						</div>
 					</form>
@@ -109,10 +108,10 @@
 		  						Are you clear about which advantages and disadvantages are most important to you?
 		  					</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="YES"> <br>
+							  	<input type="radio" id="qb2yes" name="treatment" value="YES"> <br>
 							</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="NO"> <br>
+							  	<input type="radio" id="qb2no" name="treatment" value="NO"> <br>
 							</div>
 						</div>
 					</form>
@@ -122,10 +121,10 @@
 		  						Do you have enough support and advice from your doctor or nurse to make a choice?
 		  					</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="YES"> <br>
+							  	<input type="radio" id="qb3yes" name="treatment" value="YES"> <br>
 							</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="NO"> <br>
+							  	<input type="radio" id="qb3no" name="treatment" value="NO"> <br>
 							</div>
 						</div>
 					</form>
@@ -135,10 +134,10 @@
 		  						Do you have enough support from your family to make a choice?
 		  					</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="YES"> <br>
+							  	<input type="radio" id="qb4yes" name="treatment" value="YES"> <br>
 							</div>
 							<div class="w3-col w3-white w3-container w3-center" style="width:10%">
-							  	<input type="radio" name="treatment" value="NO"> <br>
+							  	<input type="radio" id="qb4no" name="treatment" value="NO"> <br>
 							</div>
 						</div>
 				  	<!--<input type="radio" name="treatment" value="TS"> C<br>
@@ -149,13 +148,13 @@
 				</div>
 				<br><br>
 				<footer class="w3-container w3-teal w3-padding">
-      				<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">
-					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs(1)"><br>
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs2(1)"><br>
     			</footer>
 				<!--<button class="w3-button  w3-black" onclick="plusDivs(-1)">Back </button>
 				<button class="w3-button w3-right w3-black" onclick="plusDivs(1)">Next </button><br>-->
 			</div>
-			<!--QUESTION 3-->
+			<!--QUESTION 3 slideIndex = 2 -->
 			<div class="mySlides w3-animate-opacity ">
 				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 					Now that you have learned about the advantages and disadvantages of each treatment options and know what is important to you, are you ready to make a decision about treating your hyperthyroidism relapse?
@@ -164,93 +163,174 @@
 					<form class= "w3-animate-opacity">
 					  	<input type="radio" id= "no" name="treatment" value="1" > No, I am not ready<br>
 					  	<input type="radio" id= "yes" name="treatment" value="2"> Yes, I am ready<br><br>
-					</form>
+					</form>  
 				</div>
 				<footer class="w3-container w3-teal w3-padding">
-      				<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">
-					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs(1)"><br>
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs3(1)"><br>
     			</footer>
 			</div>
-			<!--QUESTION 5-->
+			
+			
+			<!--QUESTION 5A slideIndex = 3 -->
 			<div class="mySlides w3-animate-opacity ">
 				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 					If you are not ready, you can come back later and discuss with your doctor or nurse about your decision.<br>
-					OR you have any questions for your doctor, type them below.
+					Or if you have any questions for your doctor, type them below.
 				</header>
 				<div class="w3-container w3-padding w3-white">
-					<form class= "w3-animate-opacity">
-					  	<input class="w3-input w3-border w3-animate-input" type="text" style="width:30%"><br><br>
+					<form class= "w3-animate-opacity" onSubmit="return false;">
+					  	<input class="w3-input w3-border w3-animate-input" id="soalNo" type="text" style="width:30%"><br><br>
 					</form> 
 				</div>
 				<footer class="w3-container w3-teal w3-padding">
-      				<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">
-					<!--<input type="Submit" class="w3-button w3-right w3-black" value="Done" onclick="plusDivs(1)"><br>-->
-					<a class="w3-button w3-right w3-sand w3-round-large" href="../index.html" style="text-decoration: none;">Done</a><br>
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+					<button onclick="plusDivs(4)" class="w3-button w3-right w3-sand w3-round-large">Next</button>
+					<!--<a class="w3-button w3-right w3-sand w3-round-large" href="tester.html" style="text-decoration: none;">Done</a><br>-->
     			</footer>
 			</div>
-			<!--QUESTION 4-->
+			<!--QUESTION 4 slideIndex = 4 -->
 			<div class="mySlides w3-animate-opacity ">
 				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 					If you are ready to make a decision, which choice do you prefer?
 				</header>
 				<div class="w3-container w3-padding w3-white">
 					<form class= "w3-animate-opacity">
-					  	<input type="radio" name="treatment" value="1"> Anti-thyroid medication<br>
-					  	<input type="radio" name="treatment" value="2"> Radioactive Iodine<br>
-					  	<input type="radio" name="treatment" value="3"> Thyroid Surgery<br><br>
+					  	<input type="radio" id="treat1" name="treatment" value="1"> Anti-thyroid medication<br>
+					  	<input type="radio" id="treat2" name="treatment" value="2"> Radioactive Iodine<br>
+					  	<input type="radio" id="treat3" name="treatment" value="3"> Thyroid Surgery<br><br>
 					</form> 
 				</div>
 				<footer class="w3-container w3-teal w3-padding">
-      				<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">
-					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs(1)"><br>
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+					<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs4(1)"><br>
     			</footer>
 			</div>
-			<!--QUESTION 5-->
+			<!--QUESTION 5B slideIndex = 5 -->
 			<div class="mySlides w3-animate-opacity ">
 				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
 					If you have any questions for your doctor, type them below.
 				</header>
 				<div class="w3-container w3-padding w3-white">
-					<form class= "w3-animate-opacity">
-					  	<input class="w3-input w3-border w3-animate-input" type="text" style="width:30%"><br><br>
+					<form class= "w3-animate-opacity" onSubmit="return false;">
+					  	<input class="w3-input w3-border w3-animate-input" id= "soalYes" type="text" style="width:30%"><br><br>
 					</form> 
 				</div>
 				<footer class="w3-container w3-teal w3-padding">
-      				<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs(-1)">
-					<!--<input type="Submit" class="w3-button w3-right w3-black" value="Done" onclick="plusDivs(1)"><br>-->
-					<a class="w3-button w3-right w3-sand w3-round-large" href="../index.html" style="text-decoration: none;">Done</a><br>
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+      				<input type="Submit" class="w3-button w3-right w3-sand w3-round-large" value="Next" onclick="plusDivs(1)"><br>
+      				
+					
+					<!--<a class="w3-button w3-right w3-sand w3-round-large" href="decision_summary.html" style="text-decoration: none;">Done</a><br>-->
+    			</footer>
+			</div>
+			<!--summary slideIndex = 6 -->
+			<div class="mySlides w3-animate-opacity ">
+				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
+					Final step!
+				</header>
+				<div class="w3-container w3-padding w3-white">
+					<p class= "w3-animate-opacity"> You have reach the end of the PDA. You can save the result as PDF and print it for it to be presented to your doctor. <br>We wish you good luck and hope you present this result to your doctor.</p>
+				</div>
+				<footer class="w3-container w3-teal w3-padding">
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+      				
+      				<button onclick="huhu()" class="w3-button w3-right w3-sand w3-round-large">Decision Summary</button>
+					
+					<!--<a class="w3-button w3-right w3-sand w3-round-large" href="decision_summary.html" style="text-decoration: none;">Done</a><br>-->
+    			</footer>
+			</div>
+			<!--summary slideIndex = 7 -->
+			<div class="mySlides w3-animate-opacity ">
+				<header class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">
+					Final step!
+				</header>
+				<div class="w3-container w3-padding w3-white">
+					<p class= "w3-animate-opacity"> You have reach the end of the PDA. You can save the result as PDF and print it for it to be presented to your doctor. <br>We wish you good luck and hope you present this result to your doctor.</p>
+				</div>
+				<footer class="w3-container w3-teal w3-padding">
+      				<!--<input type="button" class="w3-button w3-sand w3-round-large" value="Back" onclick="plusDivs1(-1)">-->
+      				
+      				<button onclick="huhu2()" class="w3-button w3-right w3-sand w3-round-large">Decision Summary</button>
+					
+					<!--<a class="w3-button w3-right w3-sand w3-round-large" href="decision_summary.html" style="text-decoration: none;">Done</a><br>-->
+    			</footer>
+			</div>
+			
+			
+		</div>
+
+		<div id="id01" class="w3-modal">
+			<div class="w3-modal-content">
+			    <header class="w3-container w3-teal"> 
+			    	<span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+			    	<h2 class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">Decision Summary</h2>
+			    </header>
+			    <div class="w3-container">
+			        <h2 style="font-size: 18px"> <strong> Your concerns </strong></h2>
+  						<p id="questionA" > </p><br>
+  						
+					<h2 style="font-size: 18px"> <strong>Support that you might needed </strong></h2>
+						<p>1. Do you know enough about the advantages and disadvantages of each option to make a choice?</p>
+						<p id="questionB1" > </p>
+						<p>2. Are you clear about which advantages and disadvantages are most important to you?</p>
+						<p id="questionB2" > </p>
+						<p>3. Do you have enough support and advice from your doctor or nurse to make a choice?</p>
+						<p id="questionB3" > </p>
+						<p>4. Do you have enough support from your family to make a choice?</p>
+  						<p id="questionB4" > </p><br>
+
+  					<h2 style="font-size: 18px"> <strong> Are you ready to make a decision about treating your hyperthyroidism relapse?</strong></h2>
+  						<p id="questionC" > </p><br>
+
+  					<h2 style="font-size: 18px"> <strong> Which choice do you prefer?</strong></h2>
+  						<p id="questionD" > </p><br>
+
+  					<h2 style="font-size: 18px"> <strong> Additional questions for doctor?</strong></h2>
+  						<p id="questionE" > </p><br>
+			    </div>
+			    <footer class="w3-container w3-teal w3-padding">
+					<a class="w3-button w3-left w3-sand w3-round-large" href="decisions.html" style="text-decoration: none;">Retake decision</a>
+					<input type="button" class="w3-button w3-right w3-sand w3-round-large" value="Save result as PDF" onclick="printsss()"><br>
     			</footer>
 			</div>
 		</div>
 
-		<script>
-			var slideIndex = 1;
-			showDivs(slideIndex);
+		<div id="id02" class="w3-modal">
+			<div class="w3-modal-content">
+			    <header class="w3-container w3-teal"> 
+			    	<span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+			    	<h2 class="w3-container w3-teal w3-animate-opacity w3-padding" style="font-size: 18px">Decision Summary</h2>
+			    </header>
+			    <div class="w3-container">
+			        <h2 style="font-size: 18px"> <strong> Your concerns </strong></h2>
+  						<p id="nquestionA" > </p><br>
+  						
+					<h2 style="font-size: 18px"> <strong>Support that you might needed </strong></h2>
+						<p>1. Do you know enough about the advantages and disadvantages of each option to make a choice?</p>
+						<p id="nquestionB1" > </p>
+						<p>2. Are you clear about which advantages and disadvantages are most important to you?</p>
+						<p id="nquestionB2" > </p>
+						<p>3. Do you have enough support and advice from your doctor or nurse to make a choice?</p>
+						<p id="nquestionB3" > </p>
+						<p>4. Do you have enough support from your family to make a choice?</p>
+  						<p id="nquestionB4" > </p><br>
 
-			function plusDivs(n) {
-				if(document.getElementById('no').checked == true){
-					showDivs(slideIndex += n);
-				}
-				else if(document.getElementById('yes').checked == true){
-					showDivs(slideIndex += 2);
-					slideIndex = slideIndex-1;
-				}
-				else{
-					showDivs(slideIndex += n);
-				}  
-			}
+  					<h2 style="font-size: 18px"> <strong> Are you ready to make a decision about treating your hyperthyroidism relapse?</strong></h2>
+  						<p id="nquestionC" > </p><br>
 
-			function showDivs(n) {
-			  var i;
-			  var x = document.getElementsByClassName("mySlides");
-			  if (n > x.length) {slideIndex = 1}    
-			  if (n < 1) {slideIndex = x.length}
-			  for (i = 0; i < x.length; i++) {
-			     x[i].style.display = "none";  
-			  }
-			  x[slideIndex-1].style.display = "block";  
-			}
-		</script>
+  					<h2 style="font-size: 18px"> <strong> Additional questions for doctor?</strong></h2>
+  						<p id="nquestionE" > </p><br>
+			    </div>
+			    <footer class="w3-container w3-teal w3-padding">
+					<a class="w3-button w3-left w3-sand w3-round-large" href="decisions.html" style="text-decoration: none;">Retake decision</a>
+					<input type="button" class="w3-button w3-right w3-sand w3-round-large" value="Save result as PDF" onclick="printsss()"><br>
+    			</footer>
+			</div>
+		</div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.0.272/jspdf.debug.js"></script>
+		<script type="text/javascript" src="../Javascript/decision_makerJS.js"></script>
 	</body>
 	
 </html>
