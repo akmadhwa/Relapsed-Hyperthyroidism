@@ -1,0 +1,195 @@
+
+body{
+	background-color: #ecf0f1;
+	position: relative;
+
+}
+
+/*needed to remove padding around navbar*/
+html, body {
+ 	margin:0; 
+ 	padding:0;
+ } 
+
+ /**
+ CSS for Navbar 
+ @navtxt 	for the title of the navbar
+ */
+
+.menu{
+	height: 60px;
+}
+.navtxt{
+	float:left;
+	display: inline-block;
+	width: 250px;
+	height: 50px;
+	margin-left: 10px;
+	
+}
+p.navtxt{
+	font-family: 'Open Sans', Sans-serif;
+	font-size: 17pt;
+	font-weight:300;
+	margin-top: .5em;
+	margin-left: .6em;
+}
+
+ul.nav{
+	list-style-type: none;
+	height:60px;
+	margin:0;
+	padding: 0;
+    padding-top: 8px;
+    padding-left: 1em;
+	overflow: hidden;
+	background-color:#ecf0f1;
+	-webkit-box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
+	-moz-box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
+	box-shadow: -3px 6px 47px -12px rgba(0,0,0,0.52);
+
+}
+
+#nav-li {
+	float: right;
+	margin-top: 5px;
+	font-size: 12pt;
+}
+.nav-li-a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	text-decoration:none;
+	color: #2c3e50;
+	display:inline-block;
+	text-align: center;
+	height: 50px;
+}
+.nav-li-a:hover{
+	color: #2980b9;
+}
+
+/**
+For the nav bar during the scroll
+*/
+.scroll-container{
+	height: 60px;
+	position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: none;
+
+    /*to prevent conflict from the relative element*/
+	z-index: 2;
+}
+
+.scroll-inner-container{
+	background-color: #ecf0f1;
+	height: 60px;
+	text-align: center;
+
+	/*to prevent overflow of inline-block elemet*/
+	white-space: nowrap; 
+}
+
+#scrollBox{
+	display: inline-block;
+	/*to make the inline-block center*/
+	vertical-align: top;
+	height: 30px;
+	width: 185px;
+	margin: 10px 5px 0px 5px;
+	padding-top: 2px;
+	border-radius: 5px;
+	font-weight: bold;
+	/*shadow behind the box*/
+	-webkit-box-shadow: -1px 3px 18px -3px rgba(0,0,0,0.4);
+	-moz-box-shadow: -1px 3px 18px -3px rgba(0,0,0,0.4);
+	box-shadow: -1px 3px 18px -3px rgba(0,0,0,0.4);
+
+}
+
+.scroll-box4{
+	background-color: #e74c3c;
+	color: #ecf0f1;
+}
+
+/**
+Part 2
+second card 
+About the Pda
+*/
+.pda-description{
+	margin: 10px;
+	min-height: 400px;
+}
+.pda-line{
+	width: 100px;
+	border-bottom: 7px solid #2ecc71;
+	padding-top: 35px;
+}
+.pda-title{
+	
+}
+
+.pda-title h3{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 500;
+	font-size: 60px;
+	color : #3f3f3f;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.pda-details{
+	padding: 10px;
+}
+
+p.pda-sentence1 {
+	color: #3f3f3f;
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+}
+
+.highlight span{
+	color: #e74c3c;
+	font-style: italic;
+}
+
+p.pda-sentence2{
+	padding-top: 20px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+/**
+FOOTER
+*/
+#web-footer{
+	margin-top: 30px;
+	padding-left:20px;
+	background-color: #34495e;
+	min-height: 40px;
+
+  
+}
+
+.footer-container p{
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+
+
+button{
+  background-image: url(C:\Users\ASUSPC\Documents\GitHub\Relapse-Hyperthyroidism\Images\button.png) no-repeat;
+  background-position: 50% 50%;
+    cursor: auto;
+/*   put the height and width of your image here */
+  height: 50px;
+  width: 200px;
+  border: none;
+}
