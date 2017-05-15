@@ -7,10 +7,10 @@
 
 	<!-- Google Fonts -->
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:500,500i,400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:600,700" rel="stylesheet">
 
@@ -29,14 +29,18 @@
 
   	<!--Shortcut icon-->
 
-	<link rel="shortcut icon" type="image/jpg" href="C:\Users\ASUSPC\Documents\GitHub\Relapse-Hyperthyroidism\images\thyroid.jpg ">
+	<link rel="shortcut icon" type="image/jpg" href="../Images/thyroid.jpg">
     
 	<title>Hyperthyroid</title>
     
     <style>
         table{
             font-family: open sans;
+            font-weight: 600;
         }
+        td,tr,th{
+            border: 1px solid #d9d9d9;
+            font-size: 15px;
     </style>
 
 </head>
@@ -45,7 +49,7 @@
 	<div class="wrapper">
 		<div class="menu">
 			<ul class="nav">
-				<a href="C:\Users\ASUSPC\Documents\GitHub\Relapse-Hyperthyroidism/index.html"><p class="navtxt">Patient decision aids</p></a>
+				<a href="index.html"><p class="navtxt">Patient decision aids</p></a>
 				<!-- If you want to add the navbar menu
 					Put below here 
 					Just copy this code
@@ -54,13 +58,13 @@
 			</ul>
 		</div>
 
-		<!--Hide during at the top -->
-		<div class="scroll-container">
+		<!--Hide during at the top -->        
+		<div id="sticky" class="scroll-container">
 			<div class="scroll-inner-container">
 
 				<!-- can add link to the button -->
 
-				<button id="scrollBox" class="scroll-box0" type="reset" title="Compare on cost attribute" onclick="scrollToCost">Cost</button>
+				<button id="scrollBox" class="scroll-box0" title="Compare on cost attribute" onclick="scrollToCost">Cost</button>
                 
 				<button id="scrollBox" class="scroll-box2" onclick="scrollToSideEffects">Risk of side effects</button>
                 
