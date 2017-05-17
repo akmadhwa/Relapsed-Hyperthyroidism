@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 body {
     background-color: #ecf0f1;
     position: relative;
@@ -185,6 +186,7 @@ Part 1
 
 
 /**
+
 Part 2
 second card 
 About the Pda
@@ -337,6 +339,93 @@ h2.card-header-title {
 
 .card-button p:hover {
     color: #344952
+}
+
+
+/*MANUAL*/
+
+.manual {
+    background-color: #ecf0f1;
+    min-height: 460px;
+}
+
+.title-container h3 {
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+.title-container p {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 20px;
+}
+
+.manual-button {
+    margin-top: 40px;
+}
+
+.manual-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#manual-card {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    margin: 5px;
+    color: #ecf0f1;
+}
+
+.manual-card1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-color: #2ecc71;
+    ;
+}
+
+.manual-card1 p {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 14px;
+    margin-top: 10px
+}
+
+.manual-card2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-color: #3498db;
+}
+
+.manual-card2 p {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.manual-card3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-color: #9b59b6;
+}
+
+.manual-card3 p {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.manual-card4 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    background-color: #e74c3c;
+}
+
+.manual-card4 p {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
 }
 
 
