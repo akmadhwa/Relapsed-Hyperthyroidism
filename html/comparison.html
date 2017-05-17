@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+<head>	
+    
+    <link rel="stylesheet" type="text/css" href="../css/style_comparison.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<!-- Google Fonts -->
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:600,700" rel="stylesheet">
+
+	<!-- animate css -->
+
+	<link rel="stylesheet" type="text/css" media="all" href="../css/animate.css">
+
+	<!-- BOOTSTRAP -->
+	<!-- Latest compiled and minified CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+  	<!--Shortcut icon-->
+
+	<link rel="shortcut icon" type="image/jpg" href="../Images/thyroid.jpg">
+    
+	<title>Hyperthyroid</title>
+    
+    <style>
+        table{
+            font-family: open sans;
+            font-weight: 600;
+        }
+        td,tr,th{
+            border: 1px solid #d9d9d9;
+            font-size: 15px;
+    </style>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="menu">
+			<ul class="nav">
+				<a href="index.html"><p class="navtxt">Patient decision aids</p></a>
+				<!-- If you want to add the navbar menu
+					Put below here 
+					Just copy this code
+					<li><div class=""><a href="">Your name</div></a></li>  -->
+					
+			</ul>
+		</div>
+
+		<!--Hide during at the top -->        
+		<div class="scroll-container">
+			<div class="scroll-inner-container">
+
+				<!-- can add link to the button -->
+
+				<button id="scrollBox" class="scroll-box0" title="Compare on cost attribute" onclick="scrollToCost">Cost</button>
+                
+				<button id="scrollBox" class="scroll-box2" onclick="scrollToSideEffects">Side effects risks</button>
+                
+				<button id="scrollBox" class="scroll-box3" onclick="scrollToPrecautions">Treatment precautions</button>
+                
+				<button id="scrollBox" class="scroll-box4i" onclick="scrollToHormone">Hormone control</button>
+                
+                <button id="scrollBox" class="scroll-box5" onclick="scrollToSerious">Medical condition risk</button>
+                
+                <button id="scrollBox" class="scroll-box6" onclick="scrollToFull">Full comparison</button>
+			</div>
+		</div>
+        
+        <!--comparison based on the attribute "Cost of treatment"-->
+            <div id="cost" style="padding: 50px 50px 0 50px">
+                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                    <tr class="w3-teal">
+                        <th>Type of treatments</th>
+                        <th>Cost of treatment</th>
+                    </tr>
+                    <tr>
+                      <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                      <td><ul><li>Cheapest option</li></ul></td>
+                    </tr>
+                    <tr>
+                      <td>Radioactive Iodine (RAI)</td>
+                      <td><ul><li><i>-N/A-</i></li></ul></td>
+                    </tr>
+                    <tr>
+                      <td>Thyroidectomy</td>
+                      <td><ul><li>Expensive cost</li></ul></td>
+                    </tr>
+                </table>
+            </div>
+<!--        </div>-->
+        
+        <!--comparison based on the attribute "Risk of side effects"-->
+        <div id="risk" style="padding-top:50px">
+            <div style="padding: 50px 50px 0 50px">
+                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                    <tr class="w3-teal">
+                        <th>Type of treatments</th>
+                        <th>Risk of side effects</th>
+                    </tr>
+                    <tr>
+                        <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                        <td>
+                          <ul class="b">
+                          <li>Risk of minor allergic side effects such as rashes. 5 out of 100 patients get this; 95 out of 100 do not.</li>
+                          </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Radioactive Iodine (RAI)</td>
+                        <td><ul class="b"><li>Loss of taste and dry mouth due to salivary gland damage may happen.</li></ul>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td>Thyroidectomy</td>
+                      <td>
+                          <ul>
+                              <li>Risk of transient (temporary) vocal cord paralysis in 3 out of 100 patients who undergo surgery; 97 out of 100 do not get this.</li>
+                          </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--comparison based on the attribute "Treatment precautions"-->
+        <div id="precautions" style="padding-top:50px">
+            <div  style="padding: 50px 50px 0 50px">
+                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                    <tr class="w3-teal">
+                        <th>Type of treatments</th>
+                        <th>Treatment precautions</th>
+                    </tr>
+                    <tr>
+                        <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                        <td>
+                            <ul><li><i>-N/A-</i></li></ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Radioactive Iodine (RAI)</td>
+                        <td>
+                            <ul><li>You will have to comply with strict radiation precaution rules for about 1-5 days (e.g. keeping a distance from children and pregnant women, sleeping in separate beds)</li></ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thyroidectomy</td>
+                        <td><ul><li>You would have to rest after the surgery and may be on medical leave for 1-2 weeks.</li></ul></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <!--comparison based on the attribute "thyroid hormone control"-->
+        <div id="hormone" style="padding-top:50px">
+            <div  style="padding: 50px 50px 0 50px">
+                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                    <tr class="w3-teal">
+                        <th>Type of treatments</th>
+                        <th>Thyroid hormone control</th>
+                    </tr>
+                    <tr>
+                        <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                        <td><ul>
+                          <li>Avoid long term hypothyroidism (permanently low levels of thyroid hormones).</li><br>
+                          <li>Risk of hyperthyroidism relapse. About 1 in 2 people on oral medication will get a relapse of hyperthyroidism.</li></ul></td>
+                    </tr>
+                    <tr>
+                        <td>Radioactive Iodine (RAI)</td>
+                        <td>
+                            <ul>
+                                <li>Permanent remission (stop) of hyperthyroidism. With adjustment and monitoring of your oral thyroxine doses, you can achieve normal thyroid hormone levels.</li><br>
+                                <li>You will have permanent hypothyroidism requiring lifelong oral thyroxine hormone and annual T4 blood test monitoring (the test for thyroid hormone levels)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thyroidectomy</td>
+                        <td>
+                          <ul>
+                              <li>Permanent remission (stop) of hyperthyroidism. With adjustment and monitoring of your oral thyroxine doses, you can achieve normal thyroid hormone levels.</li><br>
+                              <li>You will have permanent hypothyroidism requiring lifelong oral thyroxine hormone and annual T4 blood test monitoring (the test for thyroid hormone levels)</li><br>
+                              <li>Recurrent (relapse) hyperthyroidism in 2 out of 100 patients who undergo surgery; 98 out of 100 do not get this.</li>
+                          </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <!--comparison based on the attribute "Risk of serious medical conditions"-->
+        <div id="serious" style="padding-top:50px">
+            <div  style="padding: 50px 50px 0 50px">
+                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                    <tr class="w3-teal">
+                        <th>Type of treatments</th>
+                        <th>Risk of serious medical conditions</th>
+                    </tr>
+                    <tr>
+                        <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                        <td>
+                            <ul>
+                                <li>Risk of agranulocytosis (a serious condition with a severe decrease in the production of white blood cells). 37 out of 10000 patients receiving propylthiouracil get this (9963 out of 10000 do not get it) and in 35 out of 10000 receiving methimazole get this (9965 out of 10000 do not)</li><br>
+                                <li>Risk of serious life-threatening allergic skin condition called Steven-johnson syndrome. 45 out of 10000 patients get this; 9955 out of 10000 do not.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Radioactive Iodine (RAI)</td>
+                        <td>
+                            <ul>
+                                <li>Risk of Graves’ ophthalmopathy (a condition affecting the area around your eye, where the eyelids retract and the eyes appear to bulge out). This condition happens in 15 out of 100 patients who use RAI (and does not happen in 85 out of 100). For patients with existing Graves’ ophthalmopathy, the condition worsens in 36 out of 100; 64 out of 100 do not get worse.</li><br>
+                                <li>There is a slight increase risk of cancer after exposure to radioactive iodine. 154 out of 10 000 people treated with RAI develop cancer compared to 126 out of 10 000 who are not treated with RAI.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thyroidectomy</td>
+                        <td>
+                            <ul>
+                                <li>Prolonged postoperative hypocalcemia (low calcium levels in 3 out of 100 patients who undergo surgery; 97 out of 100 do not get this.</li><br>
+                                <li>Permanent hypoparathyroidism (low levels of the parathyroid hormone, which regulates calcium absorption) in 1 out of 100 patients who undergo sugery; 99 out of 100 do not get this.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <!--Full comparison-->
+        <div id="full" style="padding-top:50px">
+            <div  style="padding: 50px 50px 0 50px">
+                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                    <tr class="w3-teal">
+                        <th>Type of treatments</th>
+                        <th>Thyroid hormone control</th>
+                        <th>Cost of treatment</th>
+                        <th>Risk of side effects</th>
+                        <th>Risk of serious medical conditions</th>
+                        <th>Treatment precautions</th>
+                    </tr>
+                    <tr>
+                        <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                        <td>
+                            <ul>
+                                <li>Avoid long term   hypothyroidism (permanently low levels of thyroid hormones).</li><br>
+                                <li>Risk of hyperthyroidism relapse. About 1 in 2 people on oral medication will get a relapse of hyperthyroidism.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Cheapest option</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="b">
+                                <li>Risk of minor allergic side effects such as rashes. 5 out of 100 patients get this; 95 out of 100 do not.</li>
+                          </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Risk of agranulocytosis (a serious condition with a severe decrease in the production of white blood cells). 37 out of 10000 patients receiving propylthiouracil get this (9963 out of 10000 do not get it) and in 35 out of 10000 receiving methimazole get this (9965 out of 10000 do not)</li><br>
+                                <li>Risk of serious life-threatening allergic skin condition called Steven-johnson syndrome. 45 out of 10000 patients get this; 9955 out of 10000 do not.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>
+                                    <i>-N/A-</i></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Radioactive Iodine (RAI)</td>
+                        <td>
+                            <ul>
+                                <li>Permanent remission (stop) of hyperthyroidism. With adjustment and monitoring of your oral thyroxine doses, you can achieve normal thyroid hormone levels.</li><br>
+                                <li>You will have permanent hypothyroidism requiring lifelong oral thyroxine hormone and annual T4 blood test monitoring (the test for thyroid hormone levels)</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li><i>-N/A-</i></li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="b">
+                                <li>Loss of taste and dry mouth due to salivary gland damage may happen.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Risk of Graves’ ophthalmopathy (a condition affecting the area around your eye, where the eyelids retract and the eyes appear to bulge out). This condition happens in 15 out of 100 patients who use RAI (and does not happen in 85 out of 100). For patients with existing Graves’ ophthalmopathy, the condition worsens in 36 out of 100; 64 out of 100 do not get worse.</li><br>
+                                <li>There is a slight increase risk of cancer after exposure to radioactive iodine. 154 out of 10 000 people treated with RAI develop cancer compared to 126 out of 10 000 who are not treated with RAI.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>You will have to comply with strict radiation precaution rules for about 1-5 days (e.g. keeping a distance from children and pregnant women, sleeping in separate beds)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Thyroidectomy</td>
+                        <td>
+                            <ul>
+                                <li>Permanent remission (stop) of hyperthyroidism. With adjustment and monitoring of your oral thyroxine doses, you can achieve normal thyroid hormone levels.
+                                </li><br>
+                                <li>You will have permanent hypothyroidism requiring lifelong oral thyroxine hormone and annual T4 blood test monitoring (the test for thyroid hormone levels)</li><br>
+                                <li>Recurrent (relapse) hyperthyroidism in 2 out of 100 patients who undergo surgery; 98 out of 100 do not get this.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Expensive cost</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Risk of transient (temporary) vocal cord paralysis in 3 out of 100 patients who undergo surgery; 97 out of 100 do not get this.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Prolonged postoperative hypocalcemia (low calcium levels in 3 out of 100 patients who undergo surgery; 97 out of 100 do not get this.</li><br>
+                                <li>Permanent hypoparathyroidism (low levels of the parathyroid hormone, which regulates calcium absorption) in 1 out of 100 patients who undergo sugery; 99 out of 100 do not get this.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>You would have to rest after the surgery and may be on medical leave for 1-2 weeks.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+	</div> <!-- end of wrapper div -->
+
+	<footer id="web-footer">
+		<div class="footer-container">
+			<p> @All Copyright reserve by University of Malaya</p>
+		</div>
+	</footer>
+
+
+<!-- javascript -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src = "../Javascript/jquery-3.2.1.js"></script>    
+    <script type="text/javascript" src = "../Javascript/script_comparison.js"></script>
+
+</body>
+</html>
