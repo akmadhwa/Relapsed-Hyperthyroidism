@@ -1,15 +1,29 @@
-.banner{
-    text-align: center;
-    padding: 0 20px 0 20px;
-    border: 1px solid black;
-    margin-top: 3em;
-}
-
-.option1{
-    
-}
-
 p{
     text-align:left; 
     padding: 0 1em 0 1em;
+}
+
+.banner1{
+    background-color: #ffccff;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border-radius: 15px;
+}
+
+.banner2{
+    background-color: #99ffcc;
+    margin-bottom: 2em;
+    border-radius: 15px;
+}
+
+.banner3{
+    background-color: #66ffff;
+    margin-bottom: 3em;
+    border-radius: 15px;
+    padding-bottom: 2em;
+}
+
+body1{
+    font-family: poppins;
+    font-size: 15px;
 }
