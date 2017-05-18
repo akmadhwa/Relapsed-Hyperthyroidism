@@ -7,7 +7,7 @@ jQuery(document).ready(function() {
 
         if (scrollPos > 20) {
 
-            jQuery(".scroll-container").show(150);
+            jQuery(".scroll-container").show(300);
 
             // add animated to pda-title
 
@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
 
         } else {
 
-            jQuery(".scroll-container").hide(150);
+            jQuery(".scroll-container").hide(300);
 
         }
 
@@ -36,6 +36,21 @@ jQuery(document).ready(function() {
     $(".scroll-box1").click(function() {
 
         window.location.href = "html/gettoknow.html";
+    });
+
+    $(".scroll-box2").click(function() {
+
+        window.location.href = "";
+    });
+
+    $(".scroll-box3").click(function() {
+
+        window.location.href = "html/comparison.html";
+    });
+
+    $(".scroll-box4").click(function() {
+
+        window.location.href = "html/decisions.html";
     });
 
 
