@@ -8,12 +8,14 @@ p{
     margin-top: 3em;
     margin-bottom: 2em;
     border-radius: 15px;
+    padding: 5px 0 1em 0;
 }
 
 .banner2{
     background-color: #99ffcc;
     margin-bottom: 2em;
     border-radius: 15px;
+    padding: 5px 0 1em 0;
 }
 
 .banner3{
@@ -21,6 +23,7 @@ p{
     margin-bottom: 3em;
     border-radius: 15px;
     padding-bottom: 2em;
+    padding: 5px 0 1em 0;
 }
 
 body1{
