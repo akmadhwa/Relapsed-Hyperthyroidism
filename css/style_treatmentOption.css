@@ -4,7 +4,7 @@ p{
 }
 
 .banner1{
-    background-color: #ffccff;
+    background-color: #b3ffb3;
     margin-top: 3em;
     margin-bottom: 1em;
     border-radius: 15px;
@@ -19,11 +19,31 @@ p{
 }
 
 .banner3{
-    background-color: #66ffff;
+    background-color: #b3ffff;
     margin-bottom: 3em;
     border-radius: 15px;
     padding-bottom: 2em;
     padding: 5px 0 1em 0;
+}
+
+.title {
+    text-align: center;
+    padding-top: 1em;
+    font-family: Lato;
+    font-weight: 600;
+    font-size: 50px;
+    color: #000066;
+}
+.titledes{
+    font-family: Lato;
+    font-size: 20px;
+}
+
+.underline{
+    height: 10px;
+    width: inherit;
+/*    background-color: #3366cc;*/
+    margin-top: 20px;
 }
 
 body1{
@@ -39,7 +59,7 @@ body1{
 .navtxt {
     float: left;
     display: inline-block;
-    width: 250px;
+    width: 280px;
     height: 50px;
     margin-left: 10px;
 }

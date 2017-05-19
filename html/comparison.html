@@ -8,11 +8,10 @@
 	<!-- Google Fonts -->
 
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Oswald:600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900,900i" rel="stylesheet">
 
 	<!-- animate css -->
 
@@ -77,6 +76,18 @@
                 <button id="scrollBox" class="scroll-box6" onclick="scrollToFull">Full comparison</button>
 			</div>
 		</div>
+        
+        <div class="container-fluid" style="text-align:center">
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8"><h2 class="title w3-animate-zoom" value=" bounce" >Treatment Options Comparison
+                    <div class="underline">
+                    </div></h2>
+                    <div class="titledes">Comparisons are made on several attributes including Cost of treatment, Risk of side effects, Treatment precautions, Thyroid hormone control and Risk of serious medical conditions.</div></div>
+                <div class="col-sm-2"></div>
+            </div>
+            
+        </div>
         
         <!--comparison based on the attribute "Cost of treatment"-->
             <div id="cost" style="padding: 50px 50px 0 50px">
@@ -346,8 +357,8 @@
         </div>
         <div class="container">
             <ul class="pager">
-                <li><a href="#">Previous</a></li>
-                <li><a href="#">Next</a></li>
+                <li><a href="../html/treatmentOption.html" data-toggle="tooltip" title="Treatment Options" data-placement="top">Previous</a></li>
+                <li><a href="../html/decisions.html" data-toggle="tooltip" data-placement="top" title="Comparison" >Next</a></li>
             </ul>
         </div>
 
@@ -357,6 +368,7 @@
 		<div class="footer-container">
 			<p> @All Copyright reserve by University of Malaya</p>
 		</div>
+        <a href="#" class="go-top">Go Top</a>
 	</footer>
 
 
@@ -366,6 +378,12 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   	<script type="text/javascript" src = "../Javascript/jquery-3.2.1.js"></script>    
     <script type="text/javascript" src = "../Javascript/script_comparison.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
 
 </body>
 </html>
