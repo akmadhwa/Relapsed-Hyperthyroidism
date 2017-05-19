@@ -6,14 +6,14 @@ p{
 .banner1{
     background-color: #ffccff;
     margin-top: 3em;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border-radius: 15px;
     padding: 5px 0 1em 0;
 }
 
 .banner2{
     background-color: #99ffcc;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     border-radius: 15px;
     padding: 5px 0 1em 0;
 }
@@ -29,4 +29,53 @@ p{
 body1{
     font-family: poppins;
     font-size: 15px;
+    position: relative;
+}
+
+.menu {
+    height: 60px;
+}
+
+.navtxt {
+    float: left;
+    display: inline-block;
+    width: 250px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+p.navtxt {
+    font-family: 'Open Sans', Sans-serif;
+    font-size: 17pt;
+    font-weight: 300;
+    margin-top: .5em;
+    margin-left: .6em;
+}
+
+ul.nav {
+    list-style-type: none;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ecf0f1;
+    -webkit-box-shadow: -3px 6px 47px -12px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: -3px 6px 47px -12px rgba(0, 0, 0, 0.52);
+    box-shadow: -3px 6px 47px -12px rgba(0, 0, 0, 0.52);
+}
+
+/* FOOTER */
+
+#web-footer {
+    margin-top: 30px;
+    padding-left: 20px;
+    background-color: #34495e;
+    min-height: 40px;
+}
+
+.footer-container p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
 }
