@@ -7,25 +7,20 @@
 
 	<!-- Google Fonts -->
 
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Oswald:600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i,900,900i" rel="stylesheet">
 
 	<!-- animate css -->
 
-	<link rel="stylesheet" type="text/css" media="all" href="../css/animate.css">
+<!--	<link rel="stylesheet" type="text/css" media="all" href="../css/animate.css">-->
 
 	<!-- BOOTSTRAP -->
 	<!-- Latest compiled and minified CSS -->
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-	<!-- Optional theme -->
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
+	
   	<!--Shortcut icon-->
 
 	<link rel="shortcut icon" type="image/jpg" href="../Images/thyroid.jpg">
@@ -35,7 +30,7 @@
     <style>
         table{
             font-family: open sans;
-            font-weight: 600;
+            font-weight: 400;
         }
         td,tr,th{
             border: 1px solid #d9d9d9;
@@ -90,7 +85,10 @@
         </div>
         
         <!--comparison based on the attribute "Cost of treatment"-->
-            <div id="cost" style="padding: 50px 50px 0 50px">
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div id="cost" style="padding: 50px 50px 0 50px">
                 <table class="w3-table-all w3-small w3-table-all w3-hoverable">
                     <tr class="w3-teal">
                         <th>Type of treatments</th>
@@ -110,67 +108,86 @@
                     </tr>
                 </table>
             </div>
-<!--        </div>-->
+            </div>
+            <div class="col-sm-1"></div>
+        </div>
+            
         
         <!--comparison based on the attribute "Risk of side effects"-->
-        <div id="risk" style="padding-top:50px">
-            <div style="padding: 50px 50px 0 50px">
-                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
-                    <tr class="w3-teal">
-                        <th>Type of treatments</th>
-                        <th>Risk of side effects</th>
-                    </tr>
-                    <tr>
-                        <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
-                        <td>
-                          <ul class="b">
-                          <li>Risk of minor allergic side effects such as rashes. 5 out of 100 patients get this; 95 out of 100 do not.</li>
-                          </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Radioactive Iodine (RAI)</td>
-                        <td><ul class="b"><li>Loss of taste and dry mouth due to salivary gland damage may happen.</li></ul>
-                        </td>
-                    </tr>
-                    <tr>
-                      <td>Thyroidectomy</td>
-                      <td>
-                          <ul>
-                              <li>Risk of transient (temporary) vocal cord paralysis in 3 out of 100 patients who undergo surgery; 97 out of 100 do not get this.</li>
-                          </ul>
-                        </td>
-                    </tr>
-                </table>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div id="risk" style="padding-top:50px">
+                    <div style="padding: 50px 50px 0 50px">
+                        <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                            <tr class="w3-teal">
+                                <th>Type of treatments</th>
+                                <th>Risk of side effects</th>
+                            </tr>
+                            <tr>
+                                <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                                <td>
+                                  <ul class="b">
+                                  <li>Risk of minor allergic side effects such as rashes. 5 out of 100 patients get this; 95 out of 100 do not.</li>
+                                  </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Radioactive Iodine (RAI)</td>
+                                <td><ul class="b"><li>Loss of taste and dry mouth due to salivary gland damage may happen.</li></ul>
+                                </td>
+                            </tr>
+                            <tr>
+                              <td>Thyroidectomy</td>
+                              <td>
+                                  <ul>
+                                      <li>Risk of transient (temporary) vocal cord paralysis in 3 out of 100 patients who undergo surgery; 97 out of 100 do not get this.</li>
+                                  </ul>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
+            <div class="col-sm-1"></div>
+
         </div>
+        
         <!--comparison based on the attribute "Treatment precautions"-->
-        <div id="precautions" style="padding-top:50px">
-            <div  style="padding: 50px 50px 0 50px">
-                <table class="w3-table-all w3-small w3-table-all w3-hoverable">
-                    <tr class="w3-teal">
-                        <th>Type of treatments</th>
-                        <th>Treatment precautions</th>
-                    </tr>
-                    <tr>
-                        <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
-                        <td>
-                            <ul><li><i>-N/A-</i></li></ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Radioactive Iodine (RAI)</td>
-                        <td>
-                            <ul><li>You will have to comply with strict radiation precaution rules for about 1-5 days (e.g. keeping a distance from children and pregnant women, sleeping in separate beds)</li></ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Thyroidectomy</td>
-                        <td><ul><li>You would have to rest after the surgery and may be on medical leave for 1-2 weeks.</li></ul></td>
-                    </tr>
-                </table>
+        <div class="row">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+                <div id="precautions" style="padding-top:50px">
+                    <div  style="padding: 50px 50px 0 50px">
+                        <table class="w3-table-all w3-small w3-table-all w3-hoverable">
+                            <tr class="w3-teal">
+                                <th>Type of treatments</th>
+                                <th>Treatment precautions</th>
+                            </tr>
+                            <tr>
+                                <td>Anti-thyroid drugs (propylthiouracil and carbimazole)</td>
+                                <td>
+                                    <ul><li><i>-N/A-</i></li></ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Radioactive Iodine (RAI)</td>
+                                <td>
+                                    <ul><li>You will have to comply with strict radiation precaution rules for about 1-5 days (e.g. keeping a distance from children and pregnant women, sleeping in separate beds)</li></ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Thyroidectomy</td>
+                                <td><ul><li>You would have to rest after the surgery and may be on medical leave for 1-2 weeks.</li></ul></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
             </div>
+            <div class="col-sm-1"></div>
         </div>
+        
+        
         
         <!--comparison based on the attribute "thyroid hormone control"-->
         <div id="hormone" style="padding-top:50px">
@@ -377,14 +394,9 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  	<script type="text/javascript" src = "../Javascript/jquery-3.2.1.js"></script>    
+<!--  	<script type="text/javascript" src = "../Javascript/jquery-3.2.1.js"></script>-->
     <script type="text/javascript" src = "../Javascript/script_comparison.js"></script>
     
-    <script>
-        $(document).ready(function(){
-        $('[data-toggle="tooltip"]').tooltip();   
-        });
-    </script>
 
 </body>
 </html>

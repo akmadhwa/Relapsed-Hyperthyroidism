@@ -70,3 +70,7 @@ $(document).ready(function() {
 				$('html, body').animate({scrollTop: 0}, 300);
 			})
 		});
+
+$(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});

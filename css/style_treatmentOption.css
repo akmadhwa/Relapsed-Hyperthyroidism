@@ -36,7 +36,16 @@ p{
 }
 .titledes{
     font-family: Lato;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    text-align: center;
+    color: #000080;
+}
+
+.description{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 100;
 }
 
 .underline{

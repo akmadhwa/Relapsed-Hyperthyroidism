@@ -1,5 +1,6 @@
 body{
-	background-color: #ecf0f1;
+/*	background-color: #ecf0f1;*/
+    background-color: #e5fff9;
 	position: relative;
 
 }
@@ -22,7 +23,9 @@ html, body {
 .titledes{
     font-family: Lato;
     font-size: 20px;
-    text-align: left;
+    font-weight: 100;
+    text-align: justify;
+    color: #000080;
 }
 
 .go-top {
