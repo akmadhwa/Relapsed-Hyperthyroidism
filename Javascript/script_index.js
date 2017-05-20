@@ -53,5 +53,10 @@ jQuery(document).ready(function() {
         window.location.href = "html/decisions.html";
     });
 
+    $(".manual-button").click(function() {
+
+        window.location.href = "html/gettoknow.html";
+    });
+
 
 })
