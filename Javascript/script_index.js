@@ -40,7 +40,7 @@ jQuery(document).ready(function() {
 
     $(".scroll-box2").click(function() {
 
-        window.location.href = "";
+        window.location.href = "html/treatmentOption.html";
     });
 
     $(".scroll-box3").click(function() {
