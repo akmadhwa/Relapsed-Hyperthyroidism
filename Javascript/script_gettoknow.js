@@ -18,5 +18,8 @@ jQuery(document).ready(function() {
     $(".btn").click(function() {
         $(".popup-position").fadeOut(150);
     });
+    
+    $('[data-toggle="tooltip"]').tooltip();   
+        
 
 });
