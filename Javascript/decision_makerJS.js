@@ -300,7 +300,6 @@
 				pdf.setFontSize(11);
 		    	pdf.setFontType("regular");
 		    	pdf.text(27, i=i+5, pdftext('- '+arr[13], 250));
-		    	pdf.text(20, i=i+1, pdftext('This report function as a guide for the doctor on your current situation about this disease. ', 250));
 				
 		    	pdf.setFontSize(13);
 				pdf.setFontType("bold");
