@@ -111,10 +111,10 @@ ul.nav {
 
 .backbutton{
     float: left;
-    margin-top: 1em;
+    margin-top: 10px;
 }
 
 .nextbutton{
     float: right;
-    margin-top: 1em;
+    margin-top: 10px;
 }
