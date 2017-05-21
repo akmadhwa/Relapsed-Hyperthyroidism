@@ -58,5 +58,21 @@ jQuery(document).ready(function() {
         window.location.href = "html/gettoknow.html";
     });
 
+    $(".manual-card1").click(function() {
+        window.location.href = "html/gettoknow.html";    
+    });
+
+    $(".manual-card2").click(function() {
+        window.location.href = "html/treatmentOption.html";    
+    });
+
+    $(".manual-card3").click(function() {
+        window.location.href = "html/comparison.html";    
+    });
+    
+    $(".manual-card4").click(function() {
+        window.location.href = "html/decisions.html";    
+    }); 
+
 
 })

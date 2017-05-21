@@ -449,6 +449,18 @@ h2.card-header-title {
     margin-top: 10px;
 }
 
+.mn-hover:hover {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-transition: all 200ms ease-in;
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
 
 /**
 FOOTER
