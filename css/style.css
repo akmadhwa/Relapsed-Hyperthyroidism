@@ -162,16 +162,16 @@ Part 1
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     position: absolute;
-    top: 10%;
-    left: 18%;
+    top: 25%;
+    left: 5%;
     color: #3498db;
-    font-size: 60pt;
+    font-size: 40pt;
 }
 
 .imgtxt2 {
     position: absolute;
-    top: 32%;
-    left: 30%;
+    top: 40%;
+    left: 7%;
     color: #545454;
     width: 560px;
     font-family: 'Lora', serif;
@@ -189,18 +189,19 @@ Part 1
         font-family: 'Oswald', sans-serif;
         /*font-weight: 600;*/
         position: absolute;
-        top: 20%;
-        left: 14%;
+        top: 30%;
+        left: 7%;
         color: #3498db;
-        font-size: 22pt;
+        font-size: 17pt;
     }
     .imgtxt2 {
-        top: 40%;
-        left: 17%;
+        top: 45%;
+        left: 7%;
         color: #545454;
         width: 300px;
-        font-family: 'Lora', serif;
-        font-size: 9pt;
+        font-family: sans-serif;
+        font-size: 8pt;
+        width: 250px;
     }
 }
 
@@ -254,8 +255,10 @@ p.pda-sentence1 {
 
 p.pda-sentence2 {
     padding-top: 20px;
-    font-family: monospace;
+    font-weight: 600;
+    font-family: sans-serif;
     font-size: 15px;
+    color:red;
 }
 
 
