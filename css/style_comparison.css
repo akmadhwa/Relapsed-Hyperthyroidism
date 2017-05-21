@@ -13,10 +13,9 @@ html, body {
 
 .title {
     text-align: center;
-    padding-top: 1em;
     font-family: Lato;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
     color: #000066;
 }
 
@@ -243,11 +242,9 @@ button:focus {outline:0;}
 .backbutton{
     float: left;
     margin-top: 1em;
-    margin-left: 1em;
 }
 
 .nextbutton{
     float: right;
     margin-top: 1em;
-    margin-right: 1em;
 }
