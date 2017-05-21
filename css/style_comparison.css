@@ -13,10 +13,9 @@ html, body {
 
 .title {
     text-align: center;
-    padding-top: 1em;
     font-family: Lato;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
     color: #000066;
 }
 
@@ -121,8 +120,9 @@ For the nav bar during the scroll
 }
 
 .scroll-inner-container{
-	background-color: #ecf0f1;
-/*    background-color: #99ffd6;*/
+/*	background-color: #ecf0f1;*/
+/*  background-color: #99ffd6;*/
+    background-color: teal;
     color: #004d2e;
     height: 60px;
     width: 100%;
@@ -141,9 +141,9 @@ For the nav bar during the scroll
 	border-radius: 25px;
     border-color: aquamarine;
     background-color: aliceblue;
-    font-family: open sans;
+    font-family: poppins;
     font-weight: 600;
-    border:2px solid #00804d;
+    border:1px solid #00804d;
     /*	shadow behind the box*/
 /*
 	-webkit-box-shadow: -1px 3px 18px -3px rgba(0,0,0,0.4);
@@ -243,11 +243,9 @@ button:focus {outline:0;}
 .backbutton{
     float: left;
     margin-top: 1em;
-    margin-left: 1em;
 }
 
 .nextbutton{
     float: right;
     margin-top: 1em;
-    margin-right: 1em;
 }

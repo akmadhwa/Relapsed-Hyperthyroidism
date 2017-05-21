@@ -28,10 +28,10 @@ p{
 
 .title {
     text-align: center;
-    padding-top: 1em;
+    padding-top: 10px;
     font-family: Lato;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 60px;
     color: #000066;
 }
 .titledes{
@@ -111,12 +111,10 @@ ul.nav {
 
 .backbutton{
     float: left;
-    margin-top: 1em;
-    margin-left: 1em;
+    margin-top: 10px;
 }
 
 .nextbutton{
     float: right;
-    margin-top: 1em;
-    margin-right: 1em;
+    margin-top: 10px;
 }
