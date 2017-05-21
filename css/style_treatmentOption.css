@@ -108,3 +108,7 @@ ul.nav {
     text-align: center;
     color: white;
 }
+
+a.pagebutton{
+    background-color: aquamarine;
+}
