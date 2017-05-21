@@ -109,6 +109,14 @@ ul.nav {
     color: white;
 }
 
-a.pagebutton{
-    background-color: aquamarine;
+.backbutton{
+    float: left;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+
+.nextbutton{
+    float: right;
+    margin-top: 1em;
+    margin-right: 1em;
 }
