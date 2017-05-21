@@ -18,6 +18,14 @@ jQuery(document).ready(function() {
     $(".btn").click(function() {
         $(".popup-position").fadeOut(150);
     });
+
+     $("#Box5").click(function() {
+        $(".popup-position").fadeOut(150);
+    });
+
+     $(".btn").click(function() {
+        $(".popup-position-warning").fadeOut(150);
+    });
     
     $('[data-toggle="tooltip"]').tooltip();   
         
