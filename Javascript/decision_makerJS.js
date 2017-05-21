@@ -27,6 +27,8 @@
 				if(document.getElementById('qa1').checked == false && document.getElementById('qa2').checked == false && document.getElementById('qa3').checked == false && document.getElementById('qa4').checked == false && document.getElementById('qa5').checked == false && document.getElementById('qa6').checked == false && document.getElementById('qa7').checked == false && document.getElementById('qa8').checked == false ){
 				//showDivs(slideIndex += n);
 				alert("Please choose at least one");
+				//sweetAlert("Oops...", "Please choose at least one", "error");
+				//swal("Please choose at least one");
 				showDivs(slideIndex = 0);
 				}
 				
@@ -65,6 +67,12 @@
 				else{
 					showDivs(slideIndex += n);
 				}
+			}
+
+			function plusDivs10(n) {
+				//QUESTION 1
+				arr[0]=arr[1]=arr[2]=arr[3]=arr[4]=arr[5]=arr[6]=arr[7]= null;
+				showDivs(slideIndex = n);
 			}
 
 			function plusDivs2(n){
@@ -117,7 +125,7 @@
 				//QUESTION 3
 				if(document.getElementById('yes').checked == false && document.getElementById('no').checked == false){
 					alert("Please choose one");
-					showDivs(slideIndex =2);
+					//showDivs(slideIndex =2);
 				}
 				
 				if(document.getElementById('no').checked == true){
@@ -130,7 +138,7 @@
 					arr[12] = "Yes, I am ready";
 				}
 				else{
-					showDivs(slideIndex += n);
+					showDivs(slideIndex = 3);
 				}
 			}	
 			
@@ -138,7 +146,7 @@
 				//QUESTION 4
 				if(document.getElementById('treat1').checked == false && document.getElementById('treat2').checked == false && document.getElementById('treat3').checked == false){
 					alert("Please choose one treatment that suits you the most");
-					showDivs(slideIndex = 4);
+					//showDivs(slideIndex = 4);
 				}
 
 				if(document.getElementById('treat1').checked == true){
@@ -184,6 +192,10 @@
 				//showDivs(slideIndex += n);
 				
 			}
+
+			function plusDivs7(n){
+					showDivs(slideIndex = n);
+			}	
 			/*function plusDivs(n) {
 				if(document.getElementById('no').checked == true){
 					showDivs(slideIndex += n);
@@ -288,7 +300,8 @@
 				pdf.setFontSize(11);
 		    	pdf.setFontType("regular");
 		    	pdf.text(27, i=i+5, pdftext('- '+arr[13], 250));
-
+		    	pdf.text(20, i=i+1, pdftext('This report function as a guide for the doctor on your current situation about this disease. ', 250));
+				
 		    	pdf.setFontSize(13);
 				pdf.setFontType("bold");
 				pdf.text(20, i=i+15, pdftext('E) Additional question for the doctors?', 250));
@@ -300,7 +313,10 @@
 				if(document.getElementById('soalYes').value == ""){
 					pdf.text(27, i=i+5, pdftext('- None', 250));
 				}
-				
+				pdf.setFontSize(8);
+				pdf.setFontType("italic");
+				pdf.text(20, 270, pdftext('Disclaimer', 250));
+				pdf.text(20, 273, pdftext('This report function as a guide for the doctor on your current situation about this disease. Please present this report on your next appointment with your respetive doctor.', 230));
 				var filename = 'DecisionMaker_'+arr[15]+'.pdf';
 				pdf.save(filename);
 			}
@@ -379,7 +395,10 @@
 				if(document.getElementById('soalNo').value == ""){
 					pdf.text(27, i=i+5, pdftext('- None', 250));
 				}
-
+				pdf.setFontSize(8);
+				pdf.setFontType("italic");
+				pdf.text(20, 270, pdftext('Disclaimer', 250));
+				pdf.text(20, 273, pdftext('This report function as a guide for the doctor on your current situation about this disease. Please present this report on your next appointment with your respetive doctor.', 230));
 				var filename = 'DecisionMaker_'+arr[15]+'.pdf';
 				pdf.save(filename);
 			}

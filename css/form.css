@@ -1,3 +1,16 @@
+#web-footer {
+    margin-top: 30px;
+    padding-left: 20px;
+    background-color: #34495e;
+    min-height: 40px;
+}
+
+.footer-container p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
 .kelabu {
   background-color: #ecf0f1;
 }
@@ -7,6 +20,7 @@
 .monster {
   font-family: 'Khula', sans-serif;
   font-weight: bold;
+  font-size: 16px;
 }
 .headerrrr {
   font-family: 'Khula', sans-serif;
